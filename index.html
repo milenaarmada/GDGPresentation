@@ -1,50 +1,149 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/beige.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+        <style>
+        .main-title{
+           text-align: right;
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        }
+        img {
+            margin: 15px 0px;
+            background: rgba(0, 0, 0, 0) !important;
+            border: 0px solid #fff !important;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0) !important;
+        }
+        .text-image{
+            vertical-align: middle !important;
+        }
+        .gold {
+            color: #8b743d !important;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+                <section>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" style="vertical-align:bottom;text-align: center;" >
+                                <h4>Emprender en tecnología</h4>
+                                <img data-src="logo-gdg.png">
+                                <img data-src="radio_cut_96.png">
+                                <p><small><a href="http://radiocut.fm">@milenaarmada</a></small></p>
+                            </td>
+                            <td>
+                                <h1 class="main-title">
+                                    <b>A brillar</b>
+                                </h1>
+                                <h1 class="main-title">
+                                    <b>mi</b>
+                                </h1>
+                                <h1 class="main-title">
+                                    <b>
+                                 amor</b>
+                                </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>Con tecnología, muchas cosas son mejorables</h2>
+                    <h5 class="gold">Y para todos no es trivial</h5>
+                    <h4 >Optimizar es la tarea <img data-src="fuerza.png" class="text-image"></h4>
+                </section>
+                <section>
+                    <h2>Los privilegios</h2>
+                    <ul>
+                        <li>En informática hay mucha demanda laboral</li>
+                        <li>Podemos construir con una computadora y conexión a Internet.
+                            (Conocimiento, servicios, comunidades)</small></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Startup</h2>
+                    <h3>Institución humana diseñada para crear un nuevo producto o servicio,
+                        bajo condiciones de <span class="gold">extrema incertidumbre</span>.</h3>
+                        <blockquote>Eric Ries</blockquote>
+                </section>
+
+                <section>
+                    <h2>Lean Startup</h2>
+                    <img data-src="lean.jpg" class="text-image">
+                </section>
+
+                <section>
+                    <h2>MVP</h2>
+                    <img data-src="MVP-Minimum-Viable-Product-.jpg" class="text-image">
+                </section>
+
+                <section>
+                    <h2>Lean Canvas</h2>
+                    <img data-src="lienzo-lean-canvas-de-ash-maurya.jpg" class="text-image">
+                </section>
+
+                <section>
+                    <h2>RadioCut Canvas</h2>
+                    <img data-src="radiocut-canvas.jpg" class="text-image">
+                </section>
+
+                <section>
+                    <h2>Growth Hacking</h2>
+                    <img data-src="growth-hacking-101.png" class="text-image">
+                </section>
+
+                <section>
+                    <h2>Growth Hacking</h2>
+                    <img data-src="growth-hacking-101.png" class="text-image">
+                </section>
+
+                <section>
+                    <h2>Growth Hacking</h2>
+                    <img data-src="growth-hacking-101.png" class="text-image">
+                </section>
+
+
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
 </html>
